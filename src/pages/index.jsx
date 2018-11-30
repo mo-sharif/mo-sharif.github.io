@@ -158,9 +158,11 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            Hello, <br /> I'm John Doe.
+            Hello, <br /> I'm Mo Sharif.
           </BigTitle>
-          <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+          <Subtitle>
+            I'm creating amazing web experiences for the next generation of consumer-facing companies.
+          </Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
@@ -174,32 +176,32 @@ const Index = () => (
           <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Freiheit"
-              link="https://www.behance.net/gallery/58937147/Freiheit"
+              title="Promania PWA"
+              link="https://github.com/Mosh-Media/promania-platform"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              This project is my entry to Adobe's #ChallengeYourPerspective contest.
+              React PWA boilerplate, start your next web app idea quickly, without the headaches.
             </ProjectCard>
             <ProjectCard
-              title="Harry Potter"
-              link="https://www.behance.net/gallery/52915793/Harry-Potter"
+              title="React Dashboard"
+              link="https://promania.herokuapp.com/dashboard"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
-              I entered the DOCMA 2017 award with this Harry Potter inspired image.
+              Responsive Dashboard, built on paper material UI and ready to deploy .
             </ProjectCard>
             <ProjectCard
-              title="Tomb Raider"
-              link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+              title="Angular Dashboard"
+              link="https://mosh-media.github.io/Mosh-Data/dashboard"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-              Recreation of a Tomb Raider Wallpaper (Fan Art)
+              Client side Web app, responsive and compatible on all devices.
             </ProjectCard>
             <ProjectCard
-              title="Eagle"
-              link="https://www.behance.net/gallery/38068151/Eagle"
+              title="Mosh UI"
+              link="https://github.com/Mosh-Media/Mosh-UI"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              A fantasy image manipulation relocating the habitat of wild animals.
+              Built on Angular with many reusable and universal components.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -253,15 +255,14 @@ const Index = () => (
             <Avatar src={avatar} alt="John Doe" />
             <AboutSub>
               The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-              Emoji into my speech to better express myself. Winky face.
+              Emoji into my speech to better express myself. 😉
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-            every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-            make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The
-            kids want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that
-            all right?
+            Front End Developer and JavaScript enthusiast with more than 5 years’ experience across various industries.
+            I am passionate about simplifying complexity and automating systems. I believe in designing and building
+            interfaces that excel for the user, owner and those maintaining it. I am always keen to push technology to
+            its limits where it can enhance the user experience.
           </AboutDesc>
         </Inner>
       </Content>
@@ -285,14 +286,14 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:mo@mosh-media.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://github.com/Mosh-Media/">GitHub</a> &{' '}
+            <a href="https://www.mosh-media.com/">Mosh Media</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2018 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
+          &copy; 2018 by Mo Sharif.{' '}
+          <a href="https://github.com/Mosh-Media/Mo">Github Repository</a>.
         </Footer>
       </Content>
       <Divider speed={0.1} offset={4}>
