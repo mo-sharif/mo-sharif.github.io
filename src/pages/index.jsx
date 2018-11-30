@@ -293,7 +293,7 @@ const Index = () => (
         </Inner>
         <Footer>
           &copy; 2018 by Mo Sharif.{' '}
-          <a href="https://github.com/Mosh-Media/Mo">Github Repository</a>.
+          <a href="https://mosh-media.github.io/">Github Repository</a>.
         </Footer>
       </Content>
       <Divider speed={0.1} offset={4}>

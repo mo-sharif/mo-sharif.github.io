@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
-  "description": "Gatsby Starter Portfolio Cara",
+  "name": "mo-portfolio",
+  "description": "Mo Sharif is a web developer from the bay area",
   "version": "2.0.0",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Mo Sharif",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-tailwind": "^0.1.10",
@@ -41,7 +41,8 @@
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
     "predev": "postcss tailwind.css -o tailwind.custom.css",
-    "prebuild": "postcss tailwind.css -o tailwind.custom.css"
+    "prebuild": "postcss tailwind.css -o tailwind.custom.css",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
@@ -52,6 +53,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
+    "gh-pages": "^2.0.1",
     "prettier": "^1.14.3"
   }
 }
