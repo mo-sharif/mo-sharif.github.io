@@ -158,7 +158,7 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            Hello, <br /> I'm Mo Sharif.
+            Hello, <br /> I'm Mo Sharif 🤓.
           </BigTitle>
           <Subtitle>
             I'm creating amazing web experiences for the next generation of consumer-facing companies.
@@ -176,28 +176,28 @@ const Index = () => (
           <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Promania PWA"
+              title="Promania PWA 📱"
               link="https://github.com/Mosh-Media/promania-platform"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
               React PWA boilerplate, start your next web app idea quickly, without the headaches.
             </ProjectCard>
             <ProjectCard
-              title="React Dashboard"
+              title="React Dashboard 💻"
               link="https://promania.herokuapp.com"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
               Responsive Dashboard, built on paper material UI and ready to deploy .
             </ProjectCard>
             <ProjectCard
-              title="Angular Dashboard"
+              title="Angular Dashboard 💾"
               link="https://mosh-media.github.io/Mosh-Data/dashboard"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
               Client side Web app, responsive and compatible on all devices.
             </ProjectCard>
             <ProjectCard
-              title="Mosh UI"
+              title="Mosh UI 📈"
               link="https://github.com/Mosh-Media/Mosh-UI"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
