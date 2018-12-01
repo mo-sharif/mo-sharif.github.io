@@ -5,7 +5,7 @@ module.exports = {
 
   siteTitle: 'Mo Sharif - Web Developer Portfolio', // Navigation and Site Title
   siteTitleAlt: 'Mo', // Alternative Site title for SEO
-  siteUrl: 'https://portfolio-cara.netlify.com', // Domain of your site. No trailing slash!
+  siteUrl: 'https://mosh-media.github.io/', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo-1024.png', // Used for SEO and manifest
   siteDescription: 'Mo Sharif portfolio - ',

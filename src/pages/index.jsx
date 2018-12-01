@@ -184,7 +184,7 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="React Dashboard"
-              link="https://promania.herokuapp.com/dashboard"
+              link="https://promania.herokuapp.com"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
               Responsive Dashboard, built on paper material UI and ready to deploy .
@@ -252,7 +252,7 @@ const Index = () => (
         <Inner>
           <Title>About</Title>
           <AboutHero>
-            <Avatar src={avatar} alt="John Doe" />
+            <Avatar src={avatar} alt="Mo Sharif" />
             <AboutSub>
               The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
               Emoji into my speech to better express myself. 😉
