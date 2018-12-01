@@ -184,7 +184,7 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="React Dashboard"
-              link="https://promania.herokuapp.com/dashboard"
+              link="https://promania.herokuapp.com"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
               Responsive Dashboard, built on paper material UI and ready to deploy .
