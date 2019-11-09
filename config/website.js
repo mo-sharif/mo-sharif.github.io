@@ -8,6 +8,7 @@ module.exports = {
   siteUrl: 'https://mo-sharif.github.io', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo-1024.png', // Used for SEO and manifest
+  // seoLogo: '/logos/seo-logo.png', // Used for SEO and manifest
   siteDescription: 'Mo Sharif portfolio - ',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
