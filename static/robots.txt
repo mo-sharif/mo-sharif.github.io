@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-sitemap: https://mosh-media.github.io/sitemap.xml

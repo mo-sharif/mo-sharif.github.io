@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-sitemap: https://mosh-media.github.io/sitemap.xml
+sitemap: https://portfolio-cara.netlify.com/sitemap.xml
