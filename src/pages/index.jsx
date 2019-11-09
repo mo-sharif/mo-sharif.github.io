@@ -174,36 +174,56 @@ const Index = () => (
       <Content speed={0.4} offset={1.2} factor={2}>
         <Inner>
           <Title>Projects</Title>
-          <ProjectsWrapper>
-            <ProjectCard
-              title="Promania PWA"
-              link="https://github.com/Mosh-Media/promania-platform"
-              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-            >
-              React PWA boilerplate, start your next web app idea quickly, without the headaches.
-            </ProjectCard>
-            <ProjectCard
-              title="React Dashboard"
-              link="https://promania.herokuapp.com"
-              bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-            >
-              Responsive Dashboard, built on paper material UI and ready to deploy .
-            </ProjectCard>
-            <ProjectCard
-              title="Angular Dashboard"
-              link="https://mosh-media.github.io/Mosh-Data/dashboard"
-              bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-            >
-              Client side Web app, responsive and compatible on all devices.
-            </ProjectCard>
-            <ProjectCard
-              title="Mosh UI"
-              link="https://github.com/Mosh-Media/Mosh-UI"
-              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-            >
-              Built on Angular with many reusable and universal components.
-            </ProjectCard>
-          </ProjectsWrapper>
+					<ProjectsWrapper>
+						<ProjectCard
+							title="Rocket Native  🚀"
+							link="https://github.com/mo-sharif/rocket-native"
+							bg="linear-gradient(to right, #108dc7 0%, #ef8e38 100%)"
+						>
+							Complete React-native (IOS and Android) powered by firebase
+							serverless backend. Built using expo cli, material UI and custom
+							CI/CD pipeline
+						</ProjectCard>
+						<ProjectCard
+							title="Mosh X 🔨"
+							link="https://mosh-media.web.app/"
+							bg="linear-gradient(to right, #c2e59c 0%, #64b3f4 100%)"
+						>
+							Firebase web tools builder, build components and pages without
+							coding. Still under development!
+						</ProjectCard>
+						<ProjectCard
+							title="Promania 📱"
+							link="https://github.com/mo-sharif/promania"
+							bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+						>
+							Complete React PWA web dashboard powered by Firebase serverless
+							backend
+						</ProjectCard>
+						<ProjectCard
+							title="Bashar UI 🐶"
+							link="https://bashar-ui.firebaseapp.com/"
+							bg="linear-gradient(to right, #c2e59c 0%, #64b3f4 100%)"
+						>
+							React PWA template, firebase cloud authentication and database
+							ready.
+						</ProjectCard>
+						<ProjectCard
+							title="React UI 💻"
+							link="https://promania.herokuapp.com"
+							bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+						>
+							Responsive Dashboard, built on paper material UI and ready to
+							deploy .
+						</ProjectCard>
+						<ProjectCard
+							title="Mosh UI 📈"
+							link="https://mo-sharif.github.io/Mosh-UI"
+							bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+						>
+							Built on Angular with many reusable and universal components.
+						</ProjectCard>
+					</ProjectsWrapper>
         </Inner>
       </Content>
       <Divider speed={0.1} offset={1} factor={2}>
@@ -259,7 +279,7 @@ const Index = () => (
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            Front End Developer and JavaScript enthusiast with more than 5 years’ experience across various industries.
+            Front End Developer and JavaScript enthusiast with more than 6 years’ experience across various industries.
             I am passionate about simplifying complexity and automating systems. I believe in designing and building
             interfaces that excel for the user, owner and those maintaining it. I am always keen to push technology to
             its limits where it can enhance the user experience.
@@ -287,13 +307,13 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:mo@mosh-media.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://github.com/Mosh-Media/">GitHub</a> &{' '}
+            <a href="https://github.com/mo-sharif/">GitHub</a> &{' '}
             <a href="https://www.mosh-media.com/">Mosh Media</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2018 by Mo Sharif.{' '}
-          <a href="https://github.com/Mosh-Media/Mo">Github Repository</a>.
+          &copy; 2019 by Mo Sharif.{' '}
+          <a href="https://github.com/mo-sharif/Mo">Github Repository</a>.
         </Footer>
       </Content>
       <Divider speed={0.1} offset={4}>
