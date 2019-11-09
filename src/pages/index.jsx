@@ -553,12 +553,9 @@ const Index = () => (
 						</AboutSub>
 					</AboutHero>
 					<AboutDesc>
-						Front End Developer and JavaScript enthusiast with more than 5
-						years’ experience across various industries. I am passionate about
-						simplifying complexity and automating systems. I believe in
-						designing and building interfaces that excel for the user, owner and
-						those maintaining it. I am always keen to push technology to its
-						limits where it can enhance the user experience.
+						Software engineering is one of my favorite hobbies, I enjoy architecting large scale web 
+						and mobile applications, from UI/UX to code modularity and reusability. I get annoyed by poor 
+						UI/UX choice, therefore I use frameworks and libraries such as React and Angular to the next level.
 					</AboutDesc>
 				</Inner>
 			</Content>
