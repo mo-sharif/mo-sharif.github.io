@@ -310,7 +310,7 @@ const Index = () => (
 					<ProjectsWrapper>
 						<ProjectCard
 							title="Rocket Native  🚀"
-							link="https://mosh-media.github.io/eyewear-app/"
+							link="https://github.com/mo-sharif/rocket-native"
 							bg="linear-gradient(to right, #108dc7 0%, #ef8e38 100%)"
 						>
 							Complete React-native (IOS and Android) powered by firebase serverless backend. Built using expo cli, material UI and custom CI/CD pipeline
@@ -324,7 +324,7 @@ const Index = () => (
 						</ProjectCard>
 						<ProjectCard
 							title="Promania 📱"
-							link="https://github.com/Mosh-Media/promania-platform"
+							link="https://github.com/mo-sharif/promania"
 							bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
 						>
 							Complete React PWA web dashboard powered by Firebase serverless backend
@@ -338,15 +338,8 @@ const Index = () => (
 							deploy .
 						</ProjectCard>
 						<ProjectCard
-							title="Angular UI 💾"
-							link="https://mosh-media.github.io/Mosh-Data/dashboard"
-							bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-						>
-							Client side Web app, responsive and compatible on all devices.
-						</ProjectCard>
-						<ProjectCard
 							title="Mosh UI 📈"
-							link="https://github.com/Mosh-Media/Mosh-UI"
+							link="https://mo-sharif.github.io/Mosh-UI"
 							bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
 						>
 							Built on Angular with many reusable and universal components.
@@ -582,13 +575,13 @@ const Index = () => (
 					<Title>Get in touch</Title>
 					<ContactText>
 						Say <a href="mailto:mo@mosh-media.com">Hi</a> or find me on other
-						platforms: <a href="https://github.com/Mosh-Media/">GitHub</a> &{" "}
+						platforms: <a href="https://github.com/mo-sharif/">GitHub</a> &{" "}
 						<a href="https://www.mosh-media.com/">Mosh Media</a>
 					</ContactText>
 				</Inner>
 				<Footer>
 					&copy; 2018 by Mo Sharif.{" "}
-					<a href="https://mosh-media.github.io/">Github Repository</a>.
+					<a href="https://mo-shrif.github.io/">Github Repository</a>.
 				</Footer>
 			</Content>
 			<Divider speed={0.1} offset={4}>
