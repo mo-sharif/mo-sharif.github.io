@@ -313,21 +313,33 @@ const Index = () => (
 							link="https://github.com/mo-sharif/rocket-native"
 							bg="linear-gradient(to right, #108dc7 0%, #ef8e38 100%)"
 						>
-							Complete React-native (IOS and Android) powered by firebase serverless backend. Built using expo cli, material UI and custom CI/CD pipeline
+							Complete React-native (IOS and Android) powered by firebase
+							serverless backend. Built using expo cli, material UI and custom
+							CI/CD pipeline
 						</ProjectCard>
 						<ProjectCard
 							title="Mosh X 🔨"
 							link="https://mosh-media.web.app/"
 							bg="linear-gradient(to right, #c2e59c 0%, #64b3f4 100%)"
 						>
-							Firebase web tools builder, build components and pages without coding. Still under development!
+							Firebase web tools builder, build components and pages without
+							coding. Still under development!
 						</ProjectCard>
 						<ProjectCard
 							title="Promania 📱"
 							link="https://github.com/mo-sharif/promania"
 							bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
 						>
-							Complete React PWA web dashboard powered by Firebase serverless backend
+							Complete React PWA web dashboard powered by Firebase serverless
+							backend
+						</ProjectCard>
+						<ProjectCard
+							title="Bashar UI 🐶"
+							link="https://bashar-ui.firebaseapp.com/"
+							bg="linear-gradient(to right, #c2e59c 0%, #64b3f4 100%)"
+						>
+							React PWA template, firebase cloud authentication and database
+							ready.
 						</ProjectCard>
 						<ProjectCard
 							title="React UI 💻"
