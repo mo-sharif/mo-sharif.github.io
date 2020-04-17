@@ -11,7 +11,7 @@ import {
 	rotate,
 	UpDown,
 	UpDownWide,
-	waveAnimation
+	waveAnimation,
 } from "../styles/animations";
 import { hidden } from "../styles/utils";
 import { colors } from "../../tailwind";
@@ -21,11 +21,11 @@ import "../styles/global";
 
 const Divider = styled(ParallaxLayer)`
 	${tw("absolute w-full h-full")};
-	background: ${props => props.bg};
+	background: ${(props) => props.bg};
 	svg {
-		fill: ${props => props.fill};
+		fill: ${(props) => props.fill};
 	}
-	clip-path: ${props => props.clipPath};
+	clip-path: ${(props) => props.clipPath};
 `;
 
 const DividerMiddle = styled(Divider)`
@@ -309,21 +309,29 @@ const Index = () => (
 					<Title>Projects</Title>
 					<ProjectsWrapper>
 						<ProjectCard
+							title="Mo Skool 🎒"
+							link="https://moskool.com"
+							bg="linear-gradient(to left, #108dc7 0%, #ef8e38 100%)"
+						>
+							Master React without the fees!! Experience a modern interactive
+							approach to mastering React and frontend development.
+						</ProjectCard>
+						<ProjectCard
 							title="Rocket Native  🚀"
 							link="https://github.com/mo-sharif/rocket-native"
 							bg="linear-gradient(to right, #108dc7 0%, #ef8e38 100%)"
 						>
-							Complete React-native (IOS and Android) powered by firebase
-							serverless backend. Built using expo cli, material UI and custom
-							CI/CD pipeline
+							Complete React-native (IOS and Android) application powered by
+							firebase serverless backend. Built using expo cli, material UI and
+							custom CI/CD pipeline
 						</ProjectCard>
 						<ProjectCard
 							title="Mosh X 🔨"
 							link="https://mosh-media.web.app/"
-							bg="linear-gradient(to right, #c2e59c 0%, #64b3f4 100%)"
+							bg="linear-gradient(to left, #D4145A 0%, #FBB03B 100%)"
 						>
-							Firebase web tools builder, build components and pages without
-							coding. Still under development!
+							Mosh X is a tools builder for the web. Build Forms, Tables, Posts,
+							and handle Http requests all in one place.
 						</ProjectCard>
 						<ProjectCard
 							title="Promania 📱"
@@ -553,9 +561,11 @@ const Index = () => (
 						</AboutSub>
 					</AboutHero>
 					<AboutDesc>
-						Software engineering is one of my favorite hobbies, I enjoy architecting large scale web 
-						and mobile applications, from UI/UX to code modularity and reusability. I get annoyed by poor 
-						UI/UX choice, therefore I use frameworks and libraries such as React and Angular to the next level.
+						Software engineering is one of my favorite hobbies, I enjoy
+						architecting large scale web and mobile applications, from UI/UX to
+						code modularity and reusability. I get annoyed by poor UI/UX choice,
+						therefore I use frameworks and libraries such as React and Angular
+						to the next level.
 					</AboutDesc>
 				</Inner>
 			</Content>
